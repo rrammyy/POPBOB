@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  border-radius: 5px;
+}
+ 
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+}
+/* 로고*/
+.logo {
+	font-size : 12px;
+	position: absolute;
+	top: 5%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+/* 회원가입 폼*/
+.signup-form {
+    width: 300px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    
+}
+/* 아이디 */
+.text-field1 {
+      font-size: 14px;
+      padding: 10px;
+      width: 260px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      border: 1px solid lightgrey;
+ 
+}
+/* 비밀번호 */
+.text-field2 {
+      font-size: 14px;
+      padding: 10px;
+      width: 260px;
+      margin-bottom: 10px;
+      border: 1px solid lightgrey;
+}
+/* 이메일 */
+.text-field3 {
+    font-size: 14px;
+      padding: 10px;
+      width: 260px;
+      margin-bottom: 10px;
+      border: 1px solid lightgrey;
+}
+/* 닉네임 */
+.text-field4 {
+      font-size: 14px;
+      padding: 10px;
+      width: 260px;
+      margin-bottom: 15px;
+      border: 1px solid lightgrey;
+}
+/* 회원가입 버튼 */
+.signup-btn {
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  width: 260px;
+  background-color: #46BEFF;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  color: black;
+}
+/* 카카오로그인 버튼*/
+.kakao-btn {
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  width: 260px;
+  background-color: #F7E600;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: black;
+}
+ 
